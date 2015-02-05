@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Image Change Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<script type="text/javascript">
+function changeIt(imageName,objName)
+{
+	var obj = document.getElementById(objName);
+	
+	var imgTag = "<img src='"+imageName+"' border='0' />";
+	
+	obj.innerHTML = imgTag;
+	
+	return;	
+}
+</script>
+</head>
+
+<body>
+<h1>Denne feature skal implementeres på katalog siden.</h1>
+<div id="image1">
+<img src="1.jpg" border="0" alt="one" />
+</div>
+
+<br><br>
+
+<a id="one" href="#" onclick="changeIt('1.jpg','image1');">Blå</a>
+<a id="two" href="#" onclick="changeIt('2.jpg','image1');">MørkeRød</a>
+<a id="three" href="#" onclick="changeIt('3.jpg','image1');">Hvid</a>
+<a id="four" href="#" onclick="changeIt('4.jpg','image1');">Rød</a>
+<a id="five" href="#" onclick="changeIt('5.jpg','image1');">MørkeBlå</a>
+<br /><br />
+<a class="a_custom" href="http://md2f12m4cg18.keaweb.dk/Vespa_4.0/vespa_lx_4t.php">Tilbage</a> <img src="images/piaggio_crest.png" alt="piaggio" style="float:right;" />
+</body>
+</html>

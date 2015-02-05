@@ -1,0 +1,513 @@
+@charset "utf-8";
+#myContainer {
+}
+
+body {
+	margin-top: -45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color:#fff;
+	background-image:url(../images/bg.jpg);
+	background-attachment:fixed;
+/*	background-repeat: no-repeat;*/
+	background-position: center center;
+	position:relative;
+	width:100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+h1 {
+	text-align:justify;
+	color:#fff;
+	vertical-align: middle;
+	margin:auto;
+	padding-left:65px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+h2 {
+	text-align:justify;
+	color:#fff;
+	vertical-align: middle;
+	margin:auto;
+	padding-left:65px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+img {
+	border:none;
+}
+#menuContainer {
+	width:1000px;
+	height:40px;
+	margin:auto;
+	position:relative;
+	top:11px;
+}
+#menuContainer a {
+	padding-left:2px;
+	padding-right:2px;
+	text-decoration:none;
+	margin-left:1px;
+	display:inline-block;
+	width:84px;
+	height:22px;
+	position:relative;
+	left: 375px;
+	text-align:center;
+	vertical-align:middle;
+
+}
+#menuContainer a p {
+	position:relative;
+	top: -6px;
+	font-size: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#menuContainer a:hover {
+	color:#fff;
+	background-image:url(../images/home_btn_active_v3.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+
+}
+.myButtons {
+	color:#F0E6E3;
+	background-image:url(../images/home_btn_v3.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	position:relative;
+	display:inline-block;
+	vertical-align:bottom;
+	z-index:3;
+	margin: 0px;
+
+}
+.myActiveButton {
+	color:#ccc;
+	background-image:url(../images/home_btn_active_v3.png);
+	background-repeat:no-repeat;
+	background-position:center center;	
+	z-index: -5;
+	
+}
+.bodyContainer {
+	width:950px;
+	margin:auto;
+	background-image:url(../images/mid_black_v3.png);
+	z-index:5;
+	position:relative;
+	top: -5px;
+}
+
+.top {
+	height:12px;
+	width:950px;
+	margin:auto;
+	background-image:url(../images/top_black_v3.png);
+	z-index:5;
+	position: relative;
+	top: -5px;
+
+}
+.bot {
+	height:12px;
+	width:950px;
+	margin:auto;
+	background-image:url(../images/bot_black_v3.png);
+	position: relative;
+	top: -5px;
+}
+.img_logo {
+	top: 37px;
+	position:relative;
+	left: 50px;
+	z-index: 10;
+	width:300px;
+	height:120px;
+}
+
+.text {
+	text-align:justify;
+	color:#fff;
+	vertical-align: middle;
+	margin:auto;
+	padding-left:45px;
+	padding-right:45px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+.text_katalog {
+	color:#fff;
+}
+
+.text_kontakt {
+	text-align:justify;
+	color:#626262;
+	vertical-align: middle;
+	margin:auto;
+	padding-left:45px;
+	padding-right:45px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#footer {
+	text-align:center;
+	color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#scooters {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-8px;
+	width: 550px;
+	height: 100px;
+	z-index:900;
+}
+
+#piaggiolink {
+    position:absolute;
+    top:42px;
+    left:50px;
+    width:60px;
+    height:120px;
+    border:0;
+    display:block;
+}
+#vespa_logo {
+	position:absolute;
+	left:70px;
+    top:20px;
+    width:250px;
+    height:50px;
+    border:0px;
+    display:block;
+	z-index:1100;
+}
+.img_center {   
+	display: block;   
+	margin-left: auto;   
+	margin-right: auto; 
+}
+
+#mail_form {
+	position:relative;
+	left:50px;
+	padding:15px;
+	background-image:url(../images/email.png);
+	background-repeat:no-repeat;
+	margin-left:50px;
+	bottom:15px;
+	width:320px;
+	height:250px;
+	text-align:justify;
+	color:#626262;
+	vertical-align: middle;	
+}
+#contact_info {
+	background-image:url(../images/kontakt.png);
+	background-repeat:no-repeat;
+	position:relative;
+	float:right; 
+	width:340px; 
+	height:265px; 
+	margin-right:100px;
+	color:#626262;
+}
+
+/* -----------------------------Social Menu -----------------*/
+#social_nav_vertical {
+	position:absolute;
+	margin-top: 145px;
+	font-family: Futura, Verdana, Sans-Serif;
+	font-size: 16px;
+	opacity:0.8;
+	color: #8e9090;
+	height: 320px;
+	background: #E2E2E2;
+	width: 100%;
+	left: -10px;
+}
+#social_nav_vertical h3 {
+	display: inline;
+	padding: 0 10px;
+	border-bottom: dashed 1px #ccc;
+}
+#social_nav_vertical  ul {
+	margin: 0;
+	padding: 0;
+}
+#social_nav_vertical ul li {
+	padding: 5px 0 0 5px;
+	margin-left: 5px;
+	list-style-type: none;
+}
+#social_nav_vertical  ul li a {
+	padding: 4px 0 0 28px;
+	height: 32px;
+	color: #999;
+	text-decoration: none;
+	line-height: 1.45em;
+}
+#social_nav_vertical ul li a:hover {
+	color: #6DCAFF;
+	text-decoration: underline;
+	opacity:0.6;
+}
+.vertical_title {
+	position: relative;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top:50px;
+}
+.delicious {
+	background: url(../images/delicious.png)no-repeat;
+	background-position: 0 -1px;
+}
+.facebook {
+	background: url(../images/facebook.png)no-repeat;
+	background-position: 0 -1px;
+}
+.stumbleupon {
+	background: url(../images/stumbleupon.png)no-repeat;
+	background-position: 0 -1px;
+}
+.twitter {
+	background: url(../images/twitter.png)no-repeat;
+	background-position: 0 -1px;
+}
+
+/* -----------------------------Promotion Box -----------------*/
+#promotion_nav_vertical {
+	position:absolute;
+	right:0px;
+/*	margin-right: -15px;*/
+	margin-top: 185px;
+	font-family: Futura, Verdana, Sans-Serif;
+	font-size: 18px;
+	opacity:0.8;
+	color: #8e9090;
+	height: 220px;
+	background: #E2E2E2;
+/*	padding: 10px;*/
+	width: 140px;
+/*	border: 2px dashed #DFDFDF;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;*/
+}
+#promotion_nav_vertical h3 {
+	display: inline;
+	padding: 0 10px;
+	border-bottom: dashed 1px #ccc;
+}
+#promotion_nav_vertical  ul {
+	margin: 0;
+	padding: 0;
+}
+#promotion_nav_vertical ul li {
+	padding: 5px 0 0 5px;
+	margin-left: 5px;
+	list-style-type: none;
+}
+#promotion_nav_vertical  ul li a {
+	padding: 4px 0 0 28px;
+	height: 32px;
+	color: #999;
+	text-decoration: none;
+	line-height: 1.45em;
+}
+#promotion_nav_vertical ul li a:hover {
+	color: #6DCAFF;
+	text-decoration: underline;
+	opacity:0.6;
+}
+.promotion_vertical_title {
+	position: relative;
+	font-size: 20px;
+/*	margin-left: 30px;*/
+	margin-top:20px;
+}
+.central_box_allbox {
+	padding-left:65px;
+	width: 200px;
+	height:auto;
+	min-height:200px;
+	filter:alpha(opacity=40);
+	clear:both;
+}
+
+/*tool tip*/
+
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+
+/* trigger button */
+.vespa_models {
+	background:transparent url(../images/vesp_lx50_sm.png) no-repeat scroll 0 0;
+	display:block;
+	height:100px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100px;
+	cursor:pointer;
+	margin-left:10px;
+	float:left;
+}
+
+/* trigger button */
+.vespa_models_two {
+	background:transparent url(../images/vespa_s50_sm.png) no-repeat scroll 0 0;
+	display:block;
+	height:100px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100px;
+	cursor:pointer;
+	margin-left:10px;
+	float:left;
+}
+
+/* trigger button */
+.vespa_models_three {
+	background:transparent url(../images/vespa_gts_sm.png) no-repeat scroll 0 0;
+	display:block;
+	height:100px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100px;
+	cursor:pointer;
+	margin-left:10px;
+	float:left;
+}
+
+/* trigger button */
+.vespa_models_four {
+	background:transparent url(../images/vespa_150_sm.png) no-repeat scroll 0 0;
+	display:block;
+	height:100px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100px;
+	cursor:pointer;
+	margin-left:10px;
+	float:left;
+}
+
+/* trigger button */
+.vespa_models_five {
+	background:transparent url(../images/vespa_lxv_sm.png) no-repeat scroll 0 0;
+	display:block;
+	height:100px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:100px;
+	cursor:pointer;
+	margin-left:10px;
+	float:left;
+}
+
+/* tooltip styling */
+.tooltip {
+	margin-top:65px;
+	display:none;
+	background:url(../images/black_arrow_big.png);
+	height:163px;
+	padding:40px 30px 10px 30px;
+	width:310px;
+	font-size:11px;
+	color:#fff;
+	z-index:1000;
+}
+
+/* a .label element inside tooltip */
+.tooltip .label {
+	color:yellow;
+	width:35px;
+}
+
+.tooltip a {
+	color:#ad4;
+	font-size:11px;
+	font-weight:bold;
+}
+
+#header {
+	height:106px;
+	width:1000px;
+	top:68px;
+	margin:auto;
+	background-image:url(../images/new_header_v5.png);
+	position: relative;
+	z-index:1500;
+	background-repeat: no-repeat;
+}
+
+/* E-shop styling */
+#kurv {
+/*	background-image:url(../images/kurv_bg.png);
+	background-repeat:no-repeat;*/
+    width:260px;
+	height:150px;
+	display:inline-block;
+    vertical-align:top;
+    background-color:#fff;
+    padding:6px;
+    font-size: 9pt;
+    border: 3px solid #581D1E;
+	overflow-y:scroll;
+	margin-left:60px;
+	margin-top:10px;
+}
+
+.fortryd {
+    width:20px;
+	height:20px;
+    float:right
+}
+
+.varer h2 {
+}
+
+.varer {
+	position:relative;
+	display: inline-block;	
+	text-align: center;
+	opacity: 0.8;
+	margin-left:55px;
+	left:10px;
+	margin-top:-30px;
+}
+
+.kundeinfo {
+	position:relative;
+	display: inline-block;	
+	opacity: 0.8;
+	margin-left:55px;
+	left:10px;
+	margin-top:-30px;
+}
+
+#services {
+	position:relative;
+	width:700px;
+/*	background-color:#0076B3;*/
+}
+
+.custom_a {
+	color:#FF9;
+}
